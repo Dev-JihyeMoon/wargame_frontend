@@ -1,3 +1,12 @@
+# wargmae_frontend
+
+
+# file 구조
+node_modules : 라이브러리 모음 폴더   
+public : 이미지 파일과 같은 static 파일 보관함. 빌드 시에 압축되지 않음.    
+src : 소스 코드 보관함   
+src 폴더 안에 있는 App.js : 메인페이지에 들어갈 HTML을 작성하는 곳   
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
