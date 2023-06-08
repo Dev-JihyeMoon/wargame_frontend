@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react';
 
 function App() {
+
+  let post = 'wargame TITLE';
+  let [bookmark, bookmarkState] = useState('0');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className = "black-nav">
+        <h4>wargmae project</h4>
+      </div>
+      <h4 id={post}> { post } </h4>
+      <button onClick={ () => { bookmarkState(34) } }>{bookmark}</button>
     </div>
   );
 }

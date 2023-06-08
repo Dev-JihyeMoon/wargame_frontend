@@ -1,4 +1,4 @@
-# wargmae_frontend
+# wargame_front
 
 
 # file 구조
