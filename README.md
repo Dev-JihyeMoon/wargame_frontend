@@ -7,6 +7,23 @@ public : 이미지 파일과 같은 static 파일 보관함. 빌드 시에 압�
 src : 소스 코드 보관함   
 src 폴더 안에 있는 App.js : 메인페이지에 들어갈 HTML을 작성하는 곳   
 
+# Commit Message Rules
+- Add: 파일 추가
+- Feat: 새로운 기능 추가
+- Fix: 버그 수정
+- Docs: 문서 수정
+- Style: 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우
+- Refactor: 코드 리팩토링
+- Test: 테스트 코드, 리팩토링 테스트 코드 추가
+- Chore: 패키지 매니저 수정, 그 외 기타 수정 
+  - ex) .gitignore, README ... 
+- Design: CSS 등 사용자 UI 디자인 변경 
+- Comment: 필요한 주석 추가 및 변경
+- Rename: 파일 또는 폴더 명의 수정 혹은 위치 변경
+- Remove: 파일 삭제
+- !BREAKING CHANGE: API의 대대적인 변경
+- !HOTFIX: 긴급한 버그 수정
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
