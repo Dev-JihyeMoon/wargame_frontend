@@ -8,6 +8,7 @@
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
     "apexcharts": "3.41.0",
+    "axios": "^1.4.0",
     "bootstrap": "5.3.0",
     "bootstrap-icons": "1.10.5",
     "history": "5.3.0",
@@ -22,7 +23,7 @@
     "web-vitals": "3.3.2"
   },
   "scripts": {
-    "start": "export PORT=3000 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +46,7 @@
       "last 1 safari version"
     ]
   },
+
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "7.22.5",
     "react-scripts": "5.0.1"

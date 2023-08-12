@@ -21,12 +21,12 @@ const About = () => {
       icon: 'bi-lock',
     },
     {
-      title: 'Dark & Light Layouts',
+      title: '피곤해',
       desc: 'This theme comes with built-in light & dark layouts, select as per your preference.',
       icon: 'bi-brightness-high',
     },
     {
-      title: 'Built-in Customizer',
+      title: '지혜는 피곤해',
       desc: 'Built-in customizer enables users to change their admin panel look & feel based on their preferences.',
       icon: 'bi-gear',
     },
